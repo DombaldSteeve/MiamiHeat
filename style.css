@@ -192,7 +192,7 @@ h2 {
     padding: 150px 50px;
 }
 
-.form {
+.connect-form {
     padding: 50px;
     padding-top: 20%;
 }
@@ -203,6 +203,15 @@ h2 {
     margin-top: 20px;
     margin-left: 40%;
     padding: 5px 40px;
+}
+#plan {
+    
+    width: 800px;
+    height: 600px;
+}
+.placementPlan{
+    padding-top: 100px;
+    padding-left: 100px;
 }
 
 footer {
@@ -294,6 +303,16 @@ footer h4 {
         height: auto;
     }
 }
+
+@media screen and (max-width: 930px) {
+    #plan {
+        width: 600px;
+        height: 400px;
+    }
+    .placementPlan{
+        padding: 10%;
+    }
+}
     
 @media screen and (max-width: 905px) {
     .carousel-item img{
@@ -337,11 +356,42 @@ footer h4 {
     #btnGroupDrop1 {
         display: none;
     }
+    #plan {
+        width: 500px;
+        height: 300px;
+    }
+    .placementPlan{
+        padding: 10%;
+    }
 }
+
 
 @media screen and (max-width: 650px) {
     .navbar-toggler{
         display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #plan {
+        width: 400px;
+        height: 250px;
+    }
+    .placementPlan{
+        padding: 10%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #plan {
+        width: 350px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #plan {
+        width: 300px;
+        height: 250px;
     }
 }
 
